@@ -19,6 +19,7 @@ import { Tooltip } from "./components/Tooltip";
 function App() {
   const classicHeader = commonConfig.classicHeader;
   const darkTheme = commonConfig.darkTheme;
+  const i = 3;
 
   const handleNavClick = (section) => {
     document.getElementById(section).scrollIntoView({ behavior: "smooth" });
